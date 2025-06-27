@@ -1,9 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Freemium Quote Tool</title>
-</head>
-<body>
-    <h1>Welcome to Freemium Quote Tool</h1>
-</body>
-</html>
+@extends('layouts.app')
+
+@section('title', 'Home')
+
+@section('content')
+    <h1 class="text-center">Welcome to Freemium Quote Tool</h1>
+@endsection
